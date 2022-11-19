@@ -6,9 +6,9 @@ return require('packer').startup(function()
   use 'editorconfig/editorconfig-vim'
   --use 'neovim/nvim-lspconfig'
   use 'tpope/vim-surround'
-  --use 'folke/tokyonight.nvim'
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  use { "williamboman/mason.nvim" }
 end)
