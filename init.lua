@@ -6,3 +6,6 @@ require('plugins-config/treesitter')
 require('plugins-config/autopairs')
 
 require("mason").setup()
+require'lspconfig'.pyright.setup{}
+
+vim.api.nvim_set_option("clipboard","unnamed")
